@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing by 390land </title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="flex">
+        <div class="card">
+    <h1>Connexion</h1>
+            <form action="/submit" method="post">
+                <label class="lab" for="username">Nom d'utilisateur:</label>
+                <input type="text" id="username" name="username"><br><br>
+                <label  class="lab" for="password">Mot de passe:</label>
+                <input style="margin-left: 5%;" type="password" id="password" name="password"><br><br>
+                <input class="but" type="submit" value="Connexion">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

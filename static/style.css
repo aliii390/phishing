@@ -1,0 +1,35 @@
+body{
+    background-color:#34495E ;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.lab{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15%;
+}
+
+.card{
+    width: 450px;
+    height: 200px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+}
+
+
+.but{
+    margin-left: 14%;
+  margin-top: 2%;
+}
+
